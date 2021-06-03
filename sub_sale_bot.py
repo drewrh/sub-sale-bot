@@ -28,5 +28,5 @@ if special_price and float(special_price) < NORMAL_PRICE:
     api = tweepy.API(auth)
     
     # Include the date to avoid a duplicate tweet
-    date = str(datetime.today().strftime('%Y-%m-%d'))
-    api.update_status(date + '\nHarris Teeter at Tryon Village subs are on sale for $' + str(special_price))
+    date = str(datetime.today().strftime('%x'))
+    api.update_status(date + '\nHarris Teeter subs are on sale for $' + str(special_price))
