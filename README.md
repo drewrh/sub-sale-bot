@@ -5,8 +5,9 @@
 ## Requirements
 
 - Either:
-  - Windows install of Chrome installed under `C:\Program Files\Google\`.
-  - Instance of [Selenium's standalone Chrome browser](https://github.com/SeleniumHQ/docker-selenium) on `localhost:4444`.
+  - Windows install of Chrome installed under `C:\Program Files\Google\`
+  - Instance of [Selenium's standalone Chrome browser](https://github.com/SeleniumHQ/docker-selenium) on `localhost:4444`
+- Twitter API and Access tokens inside `.env`
 
 ## Usage
 
