@@ -7,7 +7,7 @@
 - Either:
   - Windows install of Chrome installed under `C:\Program Files\Google\`
   - Instance of [Selenium's standalone Chrome browser](https://github.com/SeleniumHQ/docker-selenium) on `localhost:4444`
-- Twitter API and Access tokens inside `.env`
+- Twitter API and Access tokens inside `.env`. See [the sample .env file](.env.sample) for an example of how the tokens should be added.
 
 ## Usage
 
