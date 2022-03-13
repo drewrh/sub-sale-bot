@@ -1,16 +1,11 @@
-version: "3.8"
+version: "3.9"
 
 services:
   chrome:
     image: selenium/standalone-chrome:latest
-    hostname: chrome
-    networks:
-      - default
     privileged: true
     shm_size: 2g
   app:
     build: .
-    networks:
-      - default
     depends_on:
       - chrome
