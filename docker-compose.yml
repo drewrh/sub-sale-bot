@@ -9,4 +9,4 @@ services:
     build: .
     depends_on:
       - "chrome"
-    command: ["./wait-for-it.sh", "chrome:4444", "--", "python", "./sub_sale_bot.py"]
+    command: ["./sub_sale_bot/wait-for-it.sh", "chrome:4444", "--", "python", "./sub_sale_bot.py"]
