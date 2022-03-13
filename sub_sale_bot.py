@@ -19,7 +19,7 @@ from selenium.webdriver.support import expected_conditions as EC
 CURRENT_DIRECTORY = os.path.abspath(os.path.dirname(__file__))
 NORMAL_SUB_PRICE = 6.99
 HT_URL = 'https://www.harristeeter.com/orderahead/selectstore/store/330/departmentsGroup/55fa9932ec2c944f582c2785/departments/55faa06f72e49e4958f6865c/categories/5608cffe87a5f77c3ff67592/products?activeTab=items'
-CHROME_URL = 'http://127.0.0.1:4444/wd/hub'
+CHROME_URL = 'http://chrome:4444/wd/hub'
 
 
 def make_driver():
