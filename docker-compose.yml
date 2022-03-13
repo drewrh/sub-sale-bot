@@ -4,9 +4,6 @@ services:
   chrome:
     image: selenium/standalone-chrome:latest
     hostname: chrome
-    ports:
-      - '4444:4444'
-      - '5900:5900'
     networks:
       - default
     privileged: true
