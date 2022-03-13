@@ -4,12 +4,12 @@ services:
     image: selenium/standalone-chrome:latest
     hostname: chrome
     networks:
-      - web
+      - default
     privileged: true
     shm_size: 2g
   app:
     build: .
     networks:
-      - web
+      - default
     depends_on:
       - chrome
