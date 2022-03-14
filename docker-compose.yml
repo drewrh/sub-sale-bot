@@ -3,12 +3,8 @@ version: "3.9"
 services:
   chrome:
     image: selenium/standalone-chrome:latest
-    privileged: true
     shm_size: 2g
-    ports:
-      - 4444:4444
   app:
     build: .
     depends_on:
       - "chrome"
-    restart: always
